@@ -1,0 +1,99 @@
+:root {
+    --bgBlack: #141414;
+    --redColor: #e50914;
+    --textGrey: #AAA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bgBlack);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container {
+    margin: 0 1%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--redColor);
+    font: 1.8rem 'Arial Black';
+}
+
+header .main-nav a {
+    color: var(--textGrey);
+    padding: .2rem 0.4rem;
+}
+
+header .main-nav a:hover {
+    color: #FFF;
+}
+
+/* Banner */
+.banner-bg {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)) ,url(/img/bg_soa_2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 25rem;
+}
+
+.banner-content {
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.banner-content .title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.2rem;
+    padding-top: 8%;
+    padding-bottom: 0.5rem;
+}
+
+.banner-content .description {
+    padding-bottom: 2rem;
+}
+
+.banner-content .btn {
+    background-color: rgba(229, 9, 20, .9);
+    padding: 0.5rem 1.4rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 0.4rem;
+    transition: 0.3s ease all;
+}
+
+.banner-content .btn i {
+    margin-right: 0.3rem;
+}
+
+.banner-content .btn:hover {
+    background-color: rgba(255, 255, 255, .9);
+    color: var(--redColor);
+}
+
+/* Films List */
+.films-list {
+    padding: 0.7rem 0.6rem;
+}
+
+.films-list .item img {
+    width: 100%;
+    height: 100%;
+}
+
+
