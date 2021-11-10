@@ -1,2 +1,1 @@
-Repositório dedicado a projetos propostos no Bootcamp JavaScript Game Developer
-da Digital Innovation One.
+Projeto "clone" da página principal do Instagram, com HTML e CSS. 
